@@ -14,4 +14,12 @@ setTimeout("console.log('rutu')",2000)
 // return value 
 //returns id of timer
 //with the help of clearTimeout we are clearing the setitmeout and we can pass the id in the  argument
+
+setTimeout(a(),2000);
+
+function a() {
+    console.log("Hello")
+}
+
+
  
