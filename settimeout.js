@@ -15,11 +15,16 @@ setTimeout("console.log('rutu')",2000)
 //returns id of timer
 //with the help of clearTimeout we are clearing the setitmeout and we can pass the id in the  argument
 
-setTimeout(a(),2000);
+// setTimeout(a(),2000,'lsj',99,[1,7]);
 
-function a() {
-    console.log("Hello")
-}
+// function a() {
+//     console.log("Hello")
+// }
 
+//common way 
+setTimeout(()=>{
+ console.log("object")
+})
 
+console.log("called fn")
  
